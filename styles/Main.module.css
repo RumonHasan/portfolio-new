@@ -1,0 +1,35 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.mainContent {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f2f2f2;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.children {
+  width: 100vw;
+  height: 100%;
+  padding: 1em;
+  overflow-y: auto;
+}
+
+.input {
+  max-width: 300px;
+  margin-top: 13px;
+  height: 40px;
+  background: transparent;
+  color: white;
+  margin-right: 5em;
+}

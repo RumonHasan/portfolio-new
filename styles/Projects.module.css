@@ -1,0 +1,29 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projectCard {
+  margin: 1em;
+  cursor: pointer;
+  transition: 450ms;
+}
+
+.projectCard:hover {
+  transform: scale(1.01);
+}
+
+.projectHeader {
+  width: 80%;
+  height: 3em;
+  background-color: #f2f2f2;
+  padding: 1em;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectContainer {
+}
