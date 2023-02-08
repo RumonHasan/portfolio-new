@@ -1,10 +1,7 @@
 import React from 'react';
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
-} from '@ant-design/icons';
 import { Avatar, Card } from 'antd';
+import { AiFillGithub, AiOutlineLink } from 'react-icons/ai';
+import { MdDescription } from 'react-icons/md';
 
 const { Meta } = Card;
 
@@ -19,9 +16,9 @@ const CardComponent = ({ cardTitle, description }) => {
         />
       }
       actions={[
-        <SettingOutlined key="setting" />,
-        <EditOutlined key="edit" />,
-        <EllipsisOutlined key="ellipsis" />,
+        <AiFillGithub key="setting" style={{ fontSize: 25 }} />,
+        <AiOutlineLink key="edit" style={{ fontSize: 25 }} />,
+        <MdDescription key="ellipsis" style={{ fontSize: 25 }} />,
       ]}
     >
       <Meta title={cardTitle} description={description} />
